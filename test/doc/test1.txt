@@ -1,0 +1,10 @@
+1. yarn add --dev jest 安装 jest包；
+2，在package.json文件中添加命令 "test": "jest";
+
+
+总结：
+1. toEqual / toBe 类似 ==，  Object.is 类似 ===
+   expect(data).toEqual({one: 1, two: 2});
+   expect(Object.is(data, {one: 1, two: 2})).toBe(true)
+
+2.
