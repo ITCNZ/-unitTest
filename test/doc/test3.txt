@@ -1,3 +1,8 @@
 * test 测试快照
+ 更新快照： npm run test (组件名） -- -u；
+ 有变量的时候使用 expect.any()，比如存在time: new Date() 则使用expect.any(Date)；
 
 
+
+* 查看测试覆盖率
+ npm test -- --coverage
